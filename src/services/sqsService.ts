@@ -42,6 +42,6 @@ export class SqsService {
     } catch (err) {
       console.error("Error sending message", err);
       throw err;
-    }
+    } 
   }
 }
