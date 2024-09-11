@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export class SqsService {
+export class SQSService {
   private sqs: SQS;
   private queueUrl: string;
 
